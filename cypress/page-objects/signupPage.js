@@ -10,6 +10,7 @@ export class SignUpPage extends BasePage{
         businessNameLabel: '#onboarding-form > table:nth-child(4) > tbody > tr:nth-child(1) > td:nth-child(1) > label',
         entityId: '#RegistrationNumber',
         addressLineOne: '#Street1',
+        addressLineTwoLabel: '#onboarding-form > table:nth-child(4) > tbody > tr:nth-child(4) > td:nth-child(1) > label',
         addressLineTwo: '#Street2',
         addressLineThree: '#Street3',
         city: '#City',
@@ -173,6 +174,8 @@ export class SignUpPage extends BasePage{
             return cy.get(this.elements.signUpButton);
         } else if (identifierText === 'Business Name Label') {
             return cy.get(this.elements.businessNameLabel);
+        } else if (identifierText === 'Address Line 2 Label') {
+            return cy.get(this.elements.addressLineTwoLabel);
         } 
     }
 }

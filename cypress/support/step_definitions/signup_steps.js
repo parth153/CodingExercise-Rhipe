@@ -6,6 +6,10 @@ import { BILLING_ADDRESS_INFORMATION, HEADER, SUBHEADER } from "../cmsConstants"
  
 const signUpPage = new SignUpPage();
 
+Before( () => {
+  cy.viewport(Cypress.env('resolution'));
+})
+
 Given(`the Rhipe customer is on sign up page`, () => {
     // navigate to page and verify headers
     signUpPage.navigate();
@@ -13,17 +17,13 @@ Given(`the Rhipe customer is on sign up page`, () => {
     signUpPage.getElement('Sub Header').should('be.visible').should('contain', SUBHEADER);    
 })
 
-Then(`the customer verifies {string} is mandatory field with {string}`, (fieldName, manadtoryChar) => {
+Then(`the customer verifies {string} is {string} field with {string}`, (fieldName, mandatoryOption, manadtoryChar) => {
   signUpPage.getElement(fieldName)
       .then($els => {
-        // get Window reference from element
-        const win = $els[0].ownerDocument.defaultView
-        // use getComputedStyle to read the pseudo selector
-        const before = win.getComputedStyle($els[0], 'after')
-        // read the value of the `content` CSS property
-        const contentValue = before.getPropertyValue('content')
-        // the returned value will have double quotes around it, but this is correct
-        expect(contentValue).to.eq(`"${manadtoryChar}"`)
+        const win = $els[0].ownerDocument.defaultView;
+        const before = win.getComputedStyle($els[0], 'after');
+        const contentValue = before.getPropertyValue('content');
+        expect(contentValue).to.eq(`"${manadtoryChar}"`);
       })
 })
 

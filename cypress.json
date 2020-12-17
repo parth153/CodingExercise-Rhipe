@@ -2,6 +2,9 @@
     "testFiles": "**/*.feature",
     "env" : {
         "signUpURL": "https://dev-rhipe-signup.azurewebsites.net/"
-    }
+    },
+    "screenshotsFolder": "reports/cucumber",
+    "video": true,
+    "videosFolder": "reports/cucumber"
 }
 

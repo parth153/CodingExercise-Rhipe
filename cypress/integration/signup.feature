@@ -4,7 +4,7 @@ Feature: Sign Up functionality for Rhipe Program Officer
 
     Scenario: Sign up Rhipe customer successfully
         Given the Rhipe customer is on sign up page
-        Then the customer verifies "Business Name Label" is mandatory field with "*"
+        Then the customer verifies "Business Name Label" is "mandatory" field with "*"
         Then the customer fills in "Business Name" as "Coding, Test - (Test & Automation ^ Analyst)"
         Then the customer fills in "Entity ID" as "555000555"
         Then the customer fills in "Address Line 1" as "(P.O.) Box 45"
