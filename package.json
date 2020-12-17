@@ -4,7 +4,7 @@
   "description": "Coding Exercise – Test Automation Analyst - Rhipe",
   "main": "index.js",
   "scripts": {
-    "signUp:macbook13:chrome": "cypress run --browser chrome --headless --env resolution=macbook-13 && npm run generate:report",
+    "signUp:macbook13:chrome": "cypress run --browser chrome --headless --env resolution=macbook-13",
     "cypress:macbook13:playground": "cypress open --env resolution=macbook-13",
     "generate:report": "node cypress/support/report-generator.js"
   },

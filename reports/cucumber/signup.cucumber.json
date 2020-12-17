@@ -22,8 +22,9 @@
             "line": 6,
             "name": "the Rhipe customer is on sign up page",
             "result": {
-              "status": "passed",
-              "duration": 1264000000
+              "status": "failed",
+              "duration": 5740000000,
+              "error_message": "AssertionError: Timed out retrying: expected '<h1.entry-title>' to contain 'test'\n    at Context.eval (https://dev-rhipe-signup.azurewebsites.net/__cypress/tests?p=cypress/integration/signup.feature:385:56)\n    at Context.resolveAndRunStepDefinition (https://dev-rhipe-signup.azurewebsites.net/__cypress/tests?p=cypress/integration/signup.feature:12295:9)\n    at Context.eval (https://dev-rhipe-signup.azurewebsites.net/__cypress/tests?p=cypress/integration/signup.feature:11636:35)"
             }
           },
           {
@@ -32,8 +33,7 @@
             "line": 7,
             "name": "the customer verifies \"Business Name Label\" is \"mandatory\" field with \"*\"",
             "result": {
-              "status": "passed",
-              "duration": 15000000
+              "status": "skipped"
             }
           },
           {
@@ -42,8 +42,7 @@
             "line": 8,
             "name": "the customer fills in \"Business Name\" as \"Coding, Test - (Test & Automation ^ Analyst)\"",
             "result": {
-              "status": "passed",
-              "duration": 891000000
+              "status": "skipped"
             }
           },
           {
@@ -52,8 +51,7 @@
             "line": 9,
             "name": "the customer fills in \"Entity ID\" as \"555000555\"",
             "result": {
-              "status": "passed",
-              "duration": 264000000
+              "status": "skipped"
             }
           },
           {
@@ -62,8 +60,7 @@
             "line": 10,
             "name": "the customer fills in \"Address Line 1\" as \"(P.O.) Box 45\"",
             "result": {
-              "status": "passed",
-              "duration": 315000000
+              "status": "skipped"
             }
           },
           {
@@ -72,8 +69,7 @@
             "line": 11,
             "name": "the customer fills in \"Address Line 2\" as \"25-90A Richmo H'way\"",
             "result": {
-              "status": "passed",
-              "duration": 379000000
+              "status": "skipped"
             }
           },
           {
@@ -82,8 +78,7 @@
             "line": 12,
             "name": "the customer fills in \"Address Line 3\" as \"Attn. To - Mr. Parth Parikh\"",
             "result": {
-              "status": "passed",
-              "duration": 476000000
+              "status": "skipped"
             }
           },
           {
@@ -92,8 +87,7 @@
             "line": 13,
             "name": "the customer fills in \"City\" as \"Melbourne\"",
             "result": {
-              "status": "passed",
-              "duration": 266000000
+              "status": "skipped"
             }
           },
           {
@@ -102,8 +96,7 @@
             "line": 14,
             "name": "the customer fills in \"State\" as \"VIC\"",
             "result": {
-              "status": "passed",
-              "duration": 208000000
+              "status": "skipped"
             }
           },
           {
@@ -112,8 +105,7 @@
             "line": 15,
             "name": "the customer selects \"Country\" as \"Hong Kong\"",
             "result": {
-              "status": "passed",
-              "duration": 170000000
+              "status": "skipped"
             }
           },
           {
@@ -122,8 +114,7 @@
             "line": 16,
             "name": "the customer fills in \"PostCode\" as \"30290\"",
             "result": {
-              "status": "passed",
-              "duration": 207000000
+              "status": "skipped"
             }
           },
           {
@@ -132,8 +123,7 @@
             "line": 17,
             "name": "the customer fills in \"Main Phone\" as \"+614900151670\"",
             "result": {
-              "status": "passed",
-              "duration": 315000000
+              "status": "skipped"
             }
           },
           {
@@ -142,8 +132,7 @@
             "line": 18,
             "name": "the customer fills in \"Fax\" as \"03 98959000\"",
             "result": {
-              "status": "passed",
-              "duration": 293000000
+              "status": "skipped"
             }
           },
           {
@@ -152,8 +141,7 @@
             "line": 19,
             "name": "the customer fills in \"Website\" as \"https://www.rhipe.com/\"",
             "result": {
-              "status": "passed",
-              "duration": 435000000
+              "status": "skipped"
             }
           },
           {
@@ -162,8 +150,7 @@
             "line": 20,
             "name": "the customer fills in \"Email\" as \"parthparikhce@gmail.com\"",
             "result": {
-              "status": "passed",
-              "duration": 432000000
+              "status": "skipped"
             }
           },
           {
@@ -172,8 +159,7 @@
             "line": 21,
             "name": "the customer selects \"Hear about Rhipe\" as \"Web Search\"",
             "result": {
-              "status": "passed",
-              "duration": 136000000
+              "status": "skipped"
             }
           },
           {
@@ -182,8 +168,7 @@
             "line": 22,
             "name": "the customer selects \"Industry Type\" as \"ERP Solution Providers\"",
             "result": {
-              "status": "passed",
-              "duration": 130000000
+              "status": "skipped"
             }
           },
           {
@@ -192,8 +177,7 @@
             "line": 23,
             "name": "the customer sees \"Use a different address for billing?\" is \"unchecked\"",
             "result": {
-              "status": "passed",
-              "duration": 30000000
+              "status": "skipped"
             }
           },
           {
@@ -202,8 +186,7 @@
             "line": 24,
             "name": "the customer checks \"Use a different address for billing?\"",
             "result": {
-              "status": "passed",
-              "duration": 85000000
+              "status": "skipped"
             }
           },
           {
@@ -212,8 +195,7 @@
             "line": 25,
             "name": "the customer sees \"Billing Address Information\"",
             "result": {
-              "status": "passed",
-              "duration": 44000000
+              "status": "skipped"
             }
           },
           {
@@ -222,8 +204,7 @@
             "line": 26,
             "name": "the customer fills in \"Billing Address Line 1\" as \"LOT 30-40\"",
             "result": {
-              "status": "passed",
-              "duration": 274000000
+              "status": "skipped"
             }
           },
           {
@@ -232,8 +213,7 @@
             "line": 27,
             "name": "the customer fills in \"Billing Address Line 2\" as \"80 L'acombe Avenue\"",
             "result": {
-              "status": "passed",
-              "duration": 377000000
+              "status": "skipped"
             }
           },
           {
@@ -242,8 +222,7 @@
             "line": 28,
             "name": "the customer fills in \"Billing Address Line 3\" as \" \"",
             "result": {
-              "status": "passed",
-              "duration": 174000000
+              "status": "skipped"
             }
           },
           {
@@ -252,8 +231,7 @@
             "line": 29,
             "name": "the customer fills in \"Billing City\" as \"Truganina\"",
             "result": {
-              "status": "passed",
-              "duration": 276000000
+              "status": "skipped"
             }
           },
           {
@@ -262,8 +240,7 @@
             "line": 30,
             "name": "the customer fills in \"Billing State\" as \"New South Wales\"",
             "result": {
-              "status": "passed",
-              "duration": 353000000
+              "status": "skipped"
             }
           },
           {
@@ -272,8 +249,7 @@
             "line": 31,
             "name": "the customer selects \"Billing Country\" as \"Australia\"",
             "result": {
-              "status": "passed",
-              "duration": 137000000
+              "status": "skipped"
             }
           },
           {
@@ -282,8 +258,7 @@
             "line": 32,
             "name": "the customer fills in \"Billing PostCode\" as \"2016\"",
             "result": {
-              "status": "passed",
-              "duration": 215000000
+              "status": "skipped"
             }
           },
           {
@@ -292,8 +267,7 @@
             "line": 33,
             "name": "the customer fills in \"Authorised Signatory First Name\" as \"P'arth\"",
             "result": {
-              "status": "passed",
-              "duration": 252000000
+              "status": "skipped"
             }
           },
           {
@@ -302,8 +276,7 @@
             "line": 34,
             "name": "the customer fills in \"Authorised Signatory Last Name\" as \"Parikh\"",
             "result": {
-              "status": "passed",
-              "duration": 240000000
+              "status": "skipped"
             }
           },
           {
@@ -312,8 +285,7 @@
             "line": 35,
             "name": "the customer fills in \"Authorised Signatory Direct Phone\" as \"0380019001\"",
             "result": {
-              "status": "passed",
-              "duration": 294000000
+              "status": "skipped"
             }
           },
           {
@@ -322,8 +294,7 @@
             "line": 36,
             "name": "the customer fills in \"Authorised Signatory Job Title\" as \"Test Manager\"",
             "result": {
-              "status": "passed",
-              "duration": 325000000
+              "status": "skipped"
             }
           },
           {
@@ -332,8 +303,7 @@
             "line": 37,
             "name": "the customer fills in \"Authorised Signatory Email\" as \"test.manager@rhipe.com.au\"",
             "result": {
-              "status": "passed",
-              "duration": 474000000
+              "status": "skipped"
             }
           },
           {
@@ -342,8 +312,7 @@
             "line": 38,
             "name": "the customer sees \"Use Authorised Signatory Contact as the only contact\" is \"checked\"",
             "result": {
-              "status": "passed",
-              "duration": 40000000
+              "status": "skipped"
             }
           },
           {
@@ -352,8 +321,7 @@
             "line": 39,
             "name": "the customer sees \"Sign Up Button\" is \"disabled\"",
             "result": {
-              "status": "passed",
-              "duration": 34000000
+              "status": "skipped"
             }
           }
         ]
