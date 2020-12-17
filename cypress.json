@@ -1,0 +1,7 @@
+{
+    "testFiles": "**/*.feature",
+    "env" : {
+        "signUpURL": "https://dev-rhipe-signup.azurewebsites.net/"
+    }
+}
+

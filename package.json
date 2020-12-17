@@ -1,0 +1,36 @@
+{
+  "name": "CodingExercise-Rhipe",
+  "version": "1.0.0",
+  "description": "Coding Exercise – Test Automation Analyst - Rhipe",
+  "main": "index.js",
+  "scripts": {
+    "signUp:macbook13:chrome": "cypress run && node cypress/support/report-generator.js",
+    "cypress:playground": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parth153/CodingExercise-Rhipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parth153/CodingExercise-Rhipe/issues"
+  },
+  "homepage": "https://github.com/parth153/CodingExercise-Rhipe#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_definitions",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "reports/cucumber",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

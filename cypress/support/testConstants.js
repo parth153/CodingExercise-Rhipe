@@ -1,0 +1,1 @@
+export const PAGE_LOAD_TIMEOUT = 60000;
