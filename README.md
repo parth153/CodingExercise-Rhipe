@@ -15,4 +15,15 @@
     <td> Description </td>
     <td> Command </td>
   </thead>
+  <tbody> 
+    <tr>
+      <td> Step 1 <td>
+    </tr>
+    <tr>
+      <td> Install dependencies <td>
+    </tr>
+    <tr>
+      <td> npm install <td>
+    </tr>
+  </tbody>
 </table>
